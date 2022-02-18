@@ -14,86 +14,54 @@
 	</head>
 	<body>
 
-		<!-- Navbar test -->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		  <div class="container-fluid">
-		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-		      <span class="navbar-toggler-icon"></span>
-		    </button>
-		    <a class="navbar-brand" href="#">Navbar</a>
-		    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-		      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-		        <li class="nav-item">
-		          <a class="nav-link active" aria-current="page" href="#">Home</a>
-		        </li>
-		        <li class="nav-item">
-		          <a class="nav-link" href="#">Link</a>
-		        </li>
-		        <li class="nav-item">
-		          <a class="nav-link disabled">Disabled</a>
-		        </li>
-		      </ul>
-		      <form class="d-flex">
-		        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-		        <button class="btn btn-outline-success" type="submit">Search</button>
-		      </form>
-		    </div>
-		  </div>
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+			<div class="container">
+				<a href="#" class="navbar-brand">Mark Gomez</a>
+
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				 <div class=" collapse navbar-collapse" id="menu">
+				 	<ul class="navbar-nav ms-auto">
+				 		<li class="nav-item">
+				 			<a class="nav-link" href="#home">Home</a>
+				 		</li>
+				 		<li class="nav-item">
+				 			<a class="nav-link" href="#about">About Me</a>
+				 		</li>
+				 		<li class="nav-item">
+				 			<a class="nav-link" href="#projects">Projects</a>
+				 		</li>
+				 		<li class="nav-item">
+				 			<a class="nav-link" href="#contact">Contact</a>
+				 		</li>
+				 	</ul>		 	
+				 </div>
+			</div>
 		</nav>
+
+		 <!-- Hero -->
+		<div class="hero-image img-fluid">
+			<div class="hero-text">
+				<h1>Hi,</h1>
+				<h1>I am Mark Allan Gomez</h1>
+				<p>A Junior Full-Stack Developer</p>
+				<button type="button" class="btn btn-outline-dark btn-lg mx-0">Hire Me</button>
+			</div>
+		</div>
 		
-
-		<!-- <nav class="navbar navbar-expand-lg navbar-light ">
-		  <div class="container-fluid">
-		    <a class="navbar-brand" href="#">
-		          <img src="./images/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-		          Gomez
-		        </a>
-		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-		      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-		        <li class="nav-item">
-		          <a class="nav-link active" aria-current="page" href="#">Home</a>
-		        </li>
-		        <li class="nav-item">
-		          <a class="nav-link" href="#">Link</a>
-		        </li>
-		        <li class="nav-item dropdown">
-		          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-		            Dropdown
-		          </a>
-		          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-		            <li><a class="dropdown-item" href="#">Action</a></li>
-		            <li><a class="dropdown-item" href="#">Another action</a></li>
-		            <li><hr class="dropdown-divider"></li>
-		            <li><a class="dropdown-item" href="#">Something else here</a></li>
-		          </ul>
-		        </li>
-		        <li class="nav-item">
-		          <a class="nav-link disabled">Disabled</a>
-		        </li>
-		      </ul>
-		      <form class="d-flex">
-		        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-		        <button class="btn btn-outline-success" type="submit">Search</button>
-		      </form>
-		    </div>
-		  </div>
-		</nav> -->
-
 		
 
 		<!-- About -->
-		<div class="m-5">
-			<div class="m-5">
-				<img src="https://cdn.vox-cdn.com/uploads/chorus_asset/file/11701759/ps1.jpg" class="img-fluid rounded-circle h-50 w-50 d-block mx-auto">
-			</div>
-			<h1 class="text-center">Mark Allan Gomez</h1>
-			<p class="text-justify">Aspiring web dev</p>
-
+		<div class=" container">
+			<h1 class="">About Me</h1>
 			<div class="row">
 				<div class="col-6">
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, deserunt! A, blanditiis animi, repellendus harum earum facilis, ullam commodi soluta error excepturi molestiae cupiditate expedita magni esse deleniti veritatis saepe.</p>
+					<img src="./images/1.jpg" class="img-fluid h-100 w-50 d-block mx-auto">
 				</div>
-				<div class="col-6">
+				<div class="col-6 pt-5">
 					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum magni velit accusamus officia itaque voluptate maiores fuga iste suscipit commodi voluptatem, eaque labore incidunt laborum, corporis explicabo debitis minima unde.</p>
 				</div>
 			</div>
@@ -137,7 +105,7 @@
 		      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
 		    </div>
 		    <div class="mb-3">
-		      <label for="exampleInputPassword1" class="form-label">Password</label>
+		      <label for="exampleInputPassword1" class="form-label"></label>
 		      <input type="password" class="form-control" id="exampleInputPassword1">
 		    </div>
 		    <div class="mb-3 form-check">

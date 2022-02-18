@@ -1,9 +1,46 @@
-body{
-	background-color: antiquewhite;
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-
-
-footer{
-	background-color: lightpink;
+body, html{
+	height: 100%;
 }
+
+.hero-image{
+	background-image: url(./images/jumbo1.jpg);
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.hero-text{
+
+	text-align: left;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-35%, -50%);
+
+}
+
+/*.hero-text h1	{
+	font-size: 30px;
+}
+
+.hero-text h2	{
+	font-size: 40px;
+}
+
+.hero-text p{
+	font-size: 30px;
+}
+
+.hero-text button{
+
+}*/
+
+
